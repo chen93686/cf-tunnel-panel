@@ -1,0 +1,14 @@
+name = "tunnel-panel"
+main = "_worker.js"
+compatibility_date = "2026-11-01"
+
+[vars]
+CF_ACCOUNT_ID = "0883e40df3b743d9aed36d72117569e1"
+
+[[d1_databases]]
+binding = "TUNNEL_DB"
+database_name = "tunnel-state"
+database_id = "186c5540-ba1a-44f2-bcb3-48fdfa045900"
+
+[triggers]
+crons = ["*/5 * * * *"]
